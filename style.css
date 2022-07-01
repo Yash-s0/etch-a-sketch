@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(155, 144, 132);
+}
+
+header{
+    font-size: 25px;
+    color: rgb(31, 5, 25);
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
