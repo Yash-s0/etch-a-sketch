@@ -3,7 +3,7 @@ body {
     height: 96vh;
     width: auto;
     font-size: 16px;
-    background-color: #d8c0c0;
+    background-color: #858585;
 }
 h1 {
     font-family: "Crimson Text", serif;
@@ -32,7 +32,7 @@ label {
     font-family: "Raleway", sans-serif;
 }
 input {
-    box-shadow: -2px 1px 1px #b40101;
+    box-shadow: -2px 1px 1px #000000;
     border: 1px solid #000000;
 }
 .menu-container {
@@ -45,7 +45,7 @@ input {
     width: 12em;
     margin-top: 25px;
     margin-left: 5em;
-    box-shadow: -3px 4px 4px #b40101;
+    box-shadow: -3px 4px 4px #000000;
 }
 
 .button-container {
@@ -76,6 +76,7 @@ button {
 }
 
 .grid-container {
+    background-color: white;
     border: 1px solid black;
     float: right;
     height: 95%;
@@ -83,22 +84,24 @@ button {
     margin-right: 3.5em;
     display: grid;
     transition: all .4s ease;
+
+    box-shadow: 10px 10px 10px #000000;
 }
 .grid-container > div {
     border: 1px solid rgba(100,100,100,0.6);
 }
-@media (max-width: 1070px) {
+/* @media (max-width: 1070px) {
     .grid-container {
         width: 35em;
         height: 95%;
     }
-}
-@media (max-width: 915px) {
+} */
+/* @media (max-width: 915px) {
     .grid-container {
         width: 30em;
         height: 95%;
     }
-}
+} */
 /*For those interested, this keeps elements centered as the window expands*/
 /*Thanks for stackexchange for info about the <meta name="viewport"...> tag as well*/
 @media (min-width: 1080px) {
@@ -111,7 +114,7 @@ button {
         width:1080px;
     }
 }
-@media (min-height: 730px) {
+/* @media (min-height: 730px) {
     body {
         margin: none;
     }
@@ -120,4 +123,4 @@ button {
         margin-bottom:auto;
         height:730px;
     }
-}
+} */
